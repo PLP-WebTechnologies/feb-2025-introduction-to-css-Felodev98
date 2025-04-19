@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Webpage</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+
+    <h1 id="header">Welcome to My Page!</h1>
+
+    <h2>Things to Explore:</h2>
+    <ol type="I">
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ol>
+
+    <h2>A Beautiful Image:</h2>
+    <img src="https://images.pexels.com/photos/164687/pexels-photo-164687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A scenic landscape" width="500" class="styled-image">
+
+    <h2>Contact Information:</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St, Anytown</td>
+                <td>+1 (555) 123-4567</td>
+                <td>john.doe@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Oak Ave, Someville</td>
+                <td>+1 (555) 987-6543</td>
+                <td>jane.smith@example.com</td>
+            </tr>
+            <tr>
+                <td>Peter Jones</td>
+                <td>789 Pine Ln, Elsewhere</td>
+                <td>+1 (555) 111-2222</td>
+                <td>peter.jones@example.com</td>
+            </tr>
+            <tr>
+                <td>Alice Brown</td>
+                <td>101 Elm Rd, Herecity</td>
+                <td>+1 (555) 333-4444</td>
+                <td>alice.brown@example.com</td>
+            </tr>
+            <tr>
+                <td>Bob Green</td>
+                <td>222 Willow Dr, Thereburg</td>
+                <td>+1 (555) 555-6666</td>
+                <td>bob.green@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Registration Form:</h2>
+    <form action="#" method="POST">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email address" required>
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required minlength="8">
+        </div>
+
+        <div>
+            <label for="birthdate">Date of Birth:</label>
+            <input type="date" id="birthdate" name="birthdate">
+        </div>
+
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="" disabled selected>Select your country</option>
+                <option value="ke">Kenya</option>
+                <option value="us">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="ca">Canada</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div>
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other_gender" name="gender" value="other">
+            <label for="other_gender">Other</label>
+        </div>
+
+        <div>
+            <p>Interests:</p>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label><br>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label><br>
+            <input type="checkbox" id="traveling" name="interests" value="traveling">
+            <label for="traveling">Traveling</label><br>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+        </div>
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+</html>
